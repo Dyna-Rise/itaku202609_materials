@@ -1,0 +1,86 @@
+VisualStudioCode 坂巻おすすめ初期設定 HTML・CSS編
+
+＜拡張機能＞
+1.  **Zenkaku**
+    *   全角スペースを視覚的にハイライト（色付け）して、半角スペースと区別しやすくします。全角スペースによる意図しないエラーを防ぐのに役立ちます。
+
+2.  **Prettier - Code formatter** (Prettier Code)
+    *   コード整形（フォーマッター）の定番ツールです。HTML, CSS, JavaScriptなどのコードを、設定に従って自動的にきれいなインデントや改行スタイルに整えます。
+
+3.  **Live Server** (または Five Server)
+    *   HTMLファイルなどをブラウザでプレビューする際、ファイルを保存するたびに**自動でブラウザをリロード**して変更を反映してくれる開発用サーバーです。
+
+4.  **Code Spell Checker**
+    *   ソースコード内のスペルミスを英語辞書に基づいてチェックし、波線で警告してくれます。クラス名やID名の綴り間違いを防ぐのに役立ちます。
+
+5.  **Auto Rename Tag**
+    *   HTMLタグの開始タグ名を変更すると、対応する終了タグ名も**自動的に同時に変更**されます。タグの修正時間を大幅に短縮できます。
+
+6.  **Auto Close Tag**
+    *   HTMLタグの開始タグ（例: `<div>`）を入力し終えた瞬間に、**自動で終了タグ**（`</div>`）を挿入してくれます。
+
+
+
+<設定>
+「Ctl + ,」で設定メニュー立ち上げ
+
+・「unicode hightlight:non basic ascii」　で検索し、同名項目を「false(無効）」にする
+　全角文字に逐一ハイライトがかかることを回避
+
+・「Word Wrap」　で検索し、同名項目を「on」にする
+　右端まで文章が伸び、表示しきれない分を折り返し画面内におさめる
+　（Ctrl +　Z）がショートカットキー ※他アプリと競合していなければショートカットキーでOK
+
+・「Render Whitespace」で検索し、同名項目を「all」にする
+　半角スペースが入ったとき「・」ガイドを表示してスぺースがあることをわかりやすくする
+
+・「Tab Size」で検索し、同名項目を「4」にする
+　Tabキーで字下げした時、半角スぺース何個分かを設定する
+
+
+<JSON設定ファイルの改造>
+拡張機能や、設定メニューにないものは
+JSON設定ファイルを自分で追記することで、さらなるカスタマイズが可能です。
+ここではJSON設定ファイルの追記する方法を示します。
+
+「Ctl + ,」で設定メニュー立ち上げ
+　右上のアイコン「Open Settings（JSON）」を起動します
+※書き方を間違えると重大なエラーになるので、
+　必ず編集前の内容をメモ帳などにバックアップしてから作業すること
+
+
+設定ファイルは
+{
+　設定のかたまり,
+　設定のかたまり,
+  設定のかたまり,
+}
+
+の構成で成り立っています。
+"設定のかたまり"は単行で書かれていることもあれば
+内容が複数行にまたがっている時もあります。
+
+最後の設定項目の後ろに,を付け加え
+その後に
+
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.background1": "#b22222",
+        "editorIndentGuide.background2": "#ff4500",
+        "editorIndentGuide.background3": "#ffd700",
+        "editorIndentGuide.background4": "#228b22",
+        "editorIndentGuide.background5": "#000080",
+        "editorIndentGuide.background6": "#8b008b",
+        "editorIndentGuide.activeBackground1": "#fff",
+        "editorIndentGuide.activeBackground2": "#fff",
+        "editorIndentGuide.activeBackground3": "#fff",
+        "editorIndentGuide.activeBackground4": "#fff",
+        "editorIndentGuide.activeBackground5": "#fff",
+        "editorIndentGuide.activeBackground6": "#fff"
+    },
+
+をコピーしてみてください。その際、
+※もともと全体を囲っている{}の組み合わせを崩さないこと
+※もともと全体を囲っている{}の内側に記述がされること
+の2点に注意してください
+
+今回の設定では、七色の縦ラインで字下げのズレやタグの閉じ忘れを気づきやすくしてくれます。
