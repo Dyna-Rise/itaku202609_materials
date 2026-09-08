@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Soleil - こだわりの空間と時間をあなたに</title>
+    <!-- 外部CSSファイルの読み込み -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fontsの読み込み（Noto Sans JP） -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- === ヘッダー === -->
+    <header>
+        <div class="container header-container">
+            <h1 class="site-logo">Cafe Soleil</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about">こだわり</a></li>
+                    <li class="nav-item"><a href="#menu">メニュー</a></li>
+                    <li class="nav-item"><a href="#location">店舗情報</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- === メインコンテンツ === -->
+    <main>
+        <!-- 1. ヒーローイメージ -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>くつろぎの空間で、<br>至福のコーヒーを。</h2>
+                <p>自然光が差し込む店内で、バリスタが淹れるこだわりの一杯をお楽しみください。</p>
+                <a href="#menu" class="btn">メニューを見る</a>
+            </div>
+            <!-- 生成画像1: カフェの様子（メイン） -->
+            <img src="img/image_0.png" alt="明るいカフェのカウンターでコーヒーを淹れるバリスタと笑顔の客" class="hero-bg-img">
+        </section>
+
+        <!-- 2. こだわりセクション (Flexbox使用) -->
+        <section id="about" class="about container section-padding">
+            <div class="about-text">
+                <h3 class="section-title">私たちのこだわり</h3>
+                <p>Cafe Soleilでは、豆の選定から抽出方法まで、すべてにおいて妥協しません。世界中から厳選したスペシャルティコーヒーを、丁寧にハンドドリップで提供しています。あなたの一日の始まり、あるいは終わりの時間が、特別なものになりますように。</p>
+            </div>
+            <!-- 生成画像2: ハンドドリップの様子 -->
+            <div class="about-image">
+                <img src="img/image_1.png" alt="ハンドドリップでコーヒーを淹れているクローズアップ" class="rounded-img">
+            </div>
+        </section>
+
+        <!-- 3. メニューセクション (Gridレイアウトの基礎) -->
+        <section id="menu" class="menu bg-light-gray section-padding">
+            <div class="container">
+                <h3 class="section-title center-align">おすすめメニュー</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <!-- 生成画像4: チーズケーキ -->
+                        <img src="img/image_2.png" alt="ベリーが乗ったチーズケーキ" class="rounded-img">
+                        <h4>特製ベリー・チーズケーキ</h4>
+                        <p>甘酸っぱいベリーと濃厚なチーズのハーモニー。</p>
+                        <span class="price">¥700 (税込)</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="img/image_3.png" alt="ハンドドリップコーヒー" class="rounded-img">
+                        <h4>ブレンドコーヒー (Soleil)</h4>
+                        <p>当店自慢のオリジナルブレンド。深いコクと香り。</p>
+                        <span class="price">¥550 (税込)</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="img/image_4.png" alt="季節のパフェ（イメージ）" class="rounded-img">
+                        <h4>季節のフルーツパフェ</h4>
+                        <p>旬のフルーツをふんだんに使った贅沢な一品。</p>
+                        <span class="price">¥1,200 (税込)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. 店舗情報セクション -->
+        <section id="location" class="location container section-padding">
+            <div class="location-content">
+                <h3 class="section-title">店舗情報</h3>
+                <dl class="info-list">
+                    <dt>住所</dt>
+                    <dd>〒100-0000 東京都千代田区カフェ町 1-2-3</dd>
+                    <dt>営業時間</dt>
+                    <dd>8:00 - 20:00 (L.O. 19:30)</dd>
+                    <dt>定休日</dt>
+                    <dd>なし (年末年始を除く)</dd>
+                </dl>
+                <a href="#" class="btn-secondary">Google Mapsで見る</a>
+            </div>
+            <!-- 生成画像3: 落ち着いた窓辺の席 -->
+            <div class="location-image">
+                <img src="img/image_5.png" alt="誰もいない落ち着いた窓際の席" class="rounded-img">
+            </div>
+        </section>
+    </main>
+
+    <!-- === フッター === -->
+    <footer>
+        <div class="container footer-content">
+            <p class="footer-logo">Cafe Soleil</p>
+            <p class="copy">&copy; 2023 Cafe Soleil. All rights reserved.</p>
+            <!-- 生成画像5: 夕暮れのテラス -->
+            <img src="img/image_6.png" alt="夕暮れのテラス席にあるカフェのマグカップ" class="footer-bg-img">
+        </div>
+    </footer>
+
+</body>
+</html>
