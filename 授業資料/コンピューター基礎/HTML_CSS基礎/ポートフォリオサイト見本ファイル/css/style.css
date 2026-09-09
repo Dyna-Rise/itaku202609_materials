@@ -1,0 +1,347 @@
+
+/* *は全要素 いったん初期デザインの余白などを一斉にリセット*/
+* {
+    margin: 0; /*外側の余白0*/
+    padding: 0; /*内側の余白0*/
+    box-sizing: border-box; /*余白の計算値調整 */
+}
+
+body {
+    background: #121212; /*背景*/
+    color: #e0e0e0; /*文字色*/
+    font-family: /*書体の候補*/
+        "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+        Meiryo, sans-serif;
+    line-height: 1.6; /*行間*/
+    overflow-x: hidden; /* 横スクロールを防ぐ */
+}
+
+.container {
+    max-width: 1200px; /*最大でも1200pxまで*/
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none; /*下線なし*/
+    color: inherit; /*親要素と同じ文字色にする*/
+    transition: all 0.3s ease; /*何か変化が生じたら 0.3秒で変化する*/
+}
+
+img {
+    max-width: 100%;
+    display: block; /* 性質変換 横並びにならない */
+}
+
+ul{
+    list-style: none; /*箇条書きリストの「・」マークをなくす*/
+}
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center; /*中央揃え*/
+    font-size: 2.5rem; /*文字サイズ remはルート(16px)に対する倍率*/
+    margin-bottom: 60px;
+    background: linear-gradient(
+        45deg,
+        #00bcd4,
+        #9c27b0
+    ); /* linear-gradientはグラデーションにする */
+    -webkit-background-clip: text; /*色をテキスト部に適用*/
+    -webkit-text-fill-color: transparent; /*テキストを透明*/
+}
+
+/* --- ヘッダー --- */
+header {
+    background-color: rgba(30, 30, 30, 0.95);
+    height: 70px; /*高さ*/
+    position: fixed; /*画面に固定化する*/
+    top: 0; /*画面のトップからの距離*/
+    left: 0; /*画面の左からの距離*/
+    width: 100%; /*幅*/
+    z-index: 1000; /*重なった時の強さ*/
+    display: flex; /*子要素を強制横並び*/
+    align-items: center; /*縦位置を中央*/
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /*影*/
+}
+
+header nav {
+    display: flex; /*子要素を強制横並び*/
+    justify-content: space-between;/*位置を揃える*/
+    align-items: center;/*縦位置を中央*/
+    width: 100%;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold; /*太字*/
+    letter-spacing: 1px; /*文字間隔*/
+}
+
+header .nav-links {
+    display: flex; /*子要素を強制横並び*/
+    gap: 30px; /*横並びになった子要素の間隔*/
+}
+
+header .nav-links a {
+    font-size: 0.9rem;
+    font-weight: 500; /*文字の太さ 1000が最大*/
+    position: relative; /*相対基準点となる*/
+}
+
+/* マウスホバーしたときの青い下線のデザイン ホバー前は幅0 */
+header .nav-links a::after {
+    content: "";
+    position: absolute; /*相対値に対して絶対値で配置*/
+    width: 0; /*ホバーしていない時は幅0 */
+    background-color: #00bcd4; /*下線と言いつつ実は背景*/
+    height: 2px;  /*高さをうんと小さくする 線にする*/
+    bottom: -5px; /*位置をすごく下にずらす ちょうど下線の位置 */
+    left: 0; /*左ぴったしから始まる */
+    transition: width 0.3s; /* 幅の変化は0.3秒かける */
+}
+/* マウスホバーしたら幅が100%になる（0.3秒かけて変化） */
+header .nav-links a:hover::after {
+    width: 100%; /*幅0→幅100に0.3秒かけて変化、これが下線に見える*/
+}
+header .nav-links a:hover {
+    color: #00bcd4; /*ホバー時、文字色も青くなる*/
+}
+
+/* --- ヒーローセクション --- */
+.hero-section {
+    height: calc(100vh - 70px); /*高さはウィンドウ高さ-70px*/
+    display: flex; /*子要素を強制横並び*/
+    align-items: center; /*縦 中央揃え*/
+    justify-content: center; /*横 中央揃え*/
+    text-align: center; /*文字中央ぞろえ*/
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.neon-text {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    /* テキストの青い影を三連続で加えてネオン風にする */
+    text-shadow:
+        0 0 10px #00bcd4, /*位置 x0 y0 ぼかし10px 青色 */
+        0 0 20px #00bcd4, /*位置 x0 y0 ぼかし20px 青色 */
+        0 0 30px #00bcd4; /*位置 x0 y0 ぼかし30px 青色 */
+}
+.hero-content h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.intro-text {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.intro-text small {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* --- Projects セクション --- */
+.project-genre-group {
+    background-color: #1e1e1e;
+    border-radius: 15px; /*領域の四隅の丸み */
+    padding: 40px;
+    margin-bottom: 50px;
+    border: 1px solid transparent; /*透明にしておく*/
+}
+.project-genre-group:hover {
+    border-color: #00bcd4;/*マウスホバーすると枠線が青*/
+}
+
+.genre-header {
+    display: flex;/*子要素を強制横並び*/
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+}
+/* アイコンの色は青 */
+.genre-header i {
+    font-size: 2rem;
+    color: #00bcd4;
+}
+.genre-header h4 {
+    font-size: 1.3rem;
+    color: #fff;
+    display: flex; /*子要素のspanを強制横並び*/
+    gap:10px; /*span同士の間隔を10px */
+}
+
+.genre-header h4 span{
+    background: #555;
+    padding: 1px 10px;
+    border-radius: 5px; /*領域の四隅の丸み */
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap; /*画面に収まらなければ折り返し表示*/
+    gap: 30px;
+}
+.project-item {
+    flex: 1 1 calc(33.333% - 30px); /*幅の比率*/
+    min-width: 250px; /*最小でも250pxまでしか縮まらない*/
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 25px;
+    display: flex; /*子要素の整頓開始*/
+    flex-direction: column; /*子要素を横並びでなく強制縦並び*/
+    transition: transform 0.3s ease; /*変化は0.3秒*/
+}
+.project-item:hover {
+    transform: translateY(-5px); /*マウスホバー時、ちょっと浮く*/
+}
+
+.project-item img {
+    width: 100%; /*画像の幅は親要素に合わせる*/
+    height: 160px; /*高さ*/
+    object-fit: cover; /*トリミング前提*/
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1); /*枠線*/
+}
+.project-item h5 {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.project-item p {
+    font-size: 0.9rem;
+    color: #b0b0b0;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+.project-item .btn-github {
+    display: inline-block; /*性質変更*/
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-align: center;
+    align-self: flex-start; /*要素を左詰め*/
+}
+/* マウスホバー時の変化 */
+.project-item .btn-github:hover {
+    background-color: #444;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+.project-item .btn-github i {
+    margin-right: 8px;
+}
+
+/* --- フッター --- */
+footer {
+    background-color: #000;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-content {
+    display: flex; /*子要素の整頓開始*/
+    flex-direction: column;/*子要素を横並びでなく強制縦並び*/
+    gap: 20px; /*縦並び要素の間隔*/
+}
+
+.social-links a i { 
+    font-size: 2rem;
+    color: #fff;/*アイコンは白*/
+}
+.social-links a:hover i {
+    color: #00bcd4; /*マウスホバー時は青*/
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* --- レスポンシブデザイン --- */
+/* レスポンシブデザインとはウィンドウサイズを変更すると
+変化するデザインのこと・モバイルでみるとデザインが違う、など */
+
+/* ウィンドウ幅が768px以下の時のデザイン */
+@media (max-width: 768px) {
+    .project-item {
+        flex: 1 1 calc(50% - 30px); /*2列まで*/
+    }
+    header{
+        height:60px;
+    }
+    .neon-text {
+        font-size: 2.5rem;
+    }
+    .hero-content h2 {
+        font-size: 1.2rem;
+    }
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    header .nav-links {
+        gap: 15px;
+    }
+    header .nav-links a {
+        font-size: 0.8rem;
+    }
+    .project-genre-group {
+        padding: 20px;
+    }
+    .genre-header h4 {
+        font-size: 1.1rem;
+    }
+}
+
+/* ウィンドウ幅が576px以下の時のデザイン */
+@media (max-width: 576px) {
+    .neon-text {
+        font-size: 2rem;
+    }
+    .project-item {
+        flex: 1 1 100%;
+    }
+    .genre-header h4{
+        flex-direction: column; /*横並びから縦並びに変更*/
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
+
+
+/* --- 以下はJavaScriptに使われるアニメーションクラス --- */
+
+/* 初期状態：透明で、少し下に配置 */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    /* visibility: hidden; を使うとアニメーションしないため opacity で制御 */
+    transition:
+        opacity 0.8s ease-out,
+        transform 0.8s ease-out;
+    will-change: opacity, transform; /* ブラウザに最適化をヒント */
+}
+
+/* JavaScriptによってこのクラスが付与されると
+表示状態：不透明で、元の位置に */
+.fade-in.appear {
+    opacity: 1;
+    transform: translateY(0);
+}

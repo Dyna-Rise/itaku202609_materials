@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <!-- レスポンシブデザインを可能にする -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO | エンジニア志望</title>
+    <!-- スタイルシートとの連動 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 虫眼鏡やGitHub・Unityのロゴデータをネットから拾う -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">MY PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#hero">HOME</a></li> <!-- id="hero"へのページ内リンク -->
+                <li><a href="#projects">PROJECTS</a></li> <!-- id="projects"へのページ内リンク -->
+                <li><a href="https://github.com/あなたのGitHubユーザー名" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content fade-in">
+                <h1 class="neon-text">WELCOME TO MY PORTFOLIO</h1>
+                <h2>エンジニア志望 | プロジェクトとスキルの紹介</h2>
+                <p class="intro-text">
+                    情熱を持ってアプリケーションやゲームを学習しています。<br>
+                    これまでの学習成果を以下でご覧ください。<br>
+                    <small>(個人情報は含まれていません)</small>
+                </p>
+            </div>
+        </section>
+
+        <!-- 作品紹介セクション (ジャンル別グループ構造) -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <h3 class="section-title">MY PROJECTS</h3>
+
+                <div class="project-genre-group fade-in">
+                    <!-- クラウドと連動したアイコン集 -->
+                    <div class="genre-header">
+                        <i class="fab fa-html5" title="HTML5"></i>
+                        <i class="fab fa-css3-alt" title="CSS3"></i>
+                        <i class="fab fa-js-square" title="JavaScript"></i>
+                        <h4>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>VisualStudioCode</span>
+                        </h4>
+                    </div>
+                    
+                    <!-- 作品リスト -->
+                    <div class="project-list">
+                        <!-- 作品1-1 -->
+                        <div class="project-item">
+                            <img src="assets/work1_1.jpg" alt="Webサイト1">
+                            <h5>作品名</h5>
+                            <p>作品の説明</p>
+                            <a href="" class="btn-github" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                        <!-- 作品1-2 (増えたら同じものを追加していく) -->
+                        <div class="project-item">
+                            <img src="assets/work1_2.jpg" alt="Webサイト2">
+                            <h5>作品名</h5>
+                            <p>作品の説明</p>
+                            <a href="" class="btn-github" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>                      
+                    </div>
+                </div>
+
+                <div class="project-genre-group fade-in">
+                    <div class="genre-header">
+                        <i class="fab fa-unity" title="Unity"></i>
+                        <h4>
+                            <span>C#</span>
+                            <span>Unity</span>
+                            <span>VisualStudio</span>
+                        </h4>
+                    </div>
+                    
+                    <div class="project-list">
+                        <!-- 作品2-1 -->
+                        <div class="project-item">
+                            <img src="assets/work2_1.jpg" alt="Unityゲーム1">
+                            <h5>作品名</h5>
+                            <p>作品の説明</p>
+                            <a href="" class="btn-github" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                        <!-- 作品2-2 (増えたらここに追加) -->
+                        <div class="project-item">
+                            <img src="assets/work2_2.jpg" alt="Unityゲーム2">
+                            <h5>作品名</h5>
+                            <p>作品の説明</p>
+                            <a href="" class="btn-github" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                        <!-- 作品2-3 (増えたらここに追加) -->
+                        <div class="project-item">
+                            <img src="assets/work2_3.jpg" alt="Unityゲーム3">
+                            <h5>作品名</h5>
+                            <p>作品の説明</p>
+                            <a href="" class="btn-github" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="social-links">
+                <a href="https://github.com/あなたのGitHubユーザー名" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; 2023 My Portfolio (Anonymous). All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

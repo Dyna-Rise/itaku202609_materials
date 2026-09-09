@@ -1,50 +1,42 @@
 /* ==============================
    基本設定 (Reset & Base)
    ============================== */
-:root {
-    /* カラーパレット */
-    --primary-color: #6f4e37;    /* コーヒーブラウン */
-    --secondary-color: #c19a6b;  /* ベージュ/ゴールド */
-    --accent-color: #e6c7a8;    /* 薄いベージュ */
-    --text-color: #555;         /* ダークグレー */
-    --bg-color: #fff;           /* 白 */
-    --light-gray-bg: #f9f9f9;   /* 薄いグレー */
-}
-
 html {
     /* スムーズスクロールを有効化 */
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
-    color: var(--text-color);
-    background-color: var(--bg-color);
-    line-height: 1.6;
+    font-family: "Noto Sans JP", sans-serif; /*書体*/
+    color: #555;
+    background-color: #fff; /*背景*/
+    line-height: 1.6; /*行間*/
     margin: 0;
     padding-top: 70px; /* ヘッダーの高さ分下げる */
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+    max-width: 100%; /*最大でも親要素を超えない*/
+    height: auto; /*高さ*/
+    display: block; /*性質変更*/
 }
 
-h1, h2, h3, h4 {
-    color: var(--primary-color);
-    font-weight: 700;
-    margin-bottom: 1rem;
+h1,
+h2,
+h3,
+h4 {
+    color: #6f4e37;
+    font-weight: 700; /*文字の太さ*/
+    margin-bottom: 1rem; /*1rem = 16px */
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    transition: opacity 0.3s ease;
+    text-decoration: none; /*下線をなくす*/
+    color: inherit; /*親要素に文字色を合わせる*/
+    transition: opacity 0.3s ease; /*変化は0.3秒*/
 }
-
 a:hover {
-    opacity: 0.7;
+    opacity: 0.7; /*透明度*/
 }
 
 /* 共通クラス */
@@ -53,19 +45,15 @@ a:hover {
     margin: 0 auto;
     padding: 0 20px;
 }
-
 .section-padding {
     padding: 80px 0;
 }
-
 .center-align {
     text-align: center;
 }
-
 .bg-light-gray {
-    background-color: var(--light-gray-bg);
+    background-color: #f9f9f9;
 }
-
 .section-title {
     font-size: 2.5rem;
     margin-bottom: 40px;
@@ -75,19 +63,19 @@ a:hover {
 
 /* セクションタイトルの下線 */
 .section-title::after {
-    content: '';
+    content: "";
     display: block;
     width: 60px;
     height: 4px;
-    background-color: var(--secondary-color);
+    background-color: #c19a6b;
     margin: 10px auto 0;
     border-radius: 2px;
 }
 
 /* 角丸画像 */
 .rounded-img {
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 10px; /*四隅を丸める*/
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /*影*/
 }
 
 /* ==============================
@@ -96,37 +84,38 @@ a:hover {
 header {
     background-color: rgba(255, 255, 255, 0.95); /* 半透明 */
     padding: 15px 0;
-    position: fixed;
+    position: fixed; /*画面に固定する*/
+    /*固定位置*/
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 100;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    z-index: 100; /*重なり合った時の強さ*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /*影*/
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between; /* ロゴとナビを左右に配置 */
-    align-items: center;
+    display: flex; /*子要素を強制横並び*/
+    justify-content: space-between; /*左右配置を調整*/
+    align-items: center; /*縦位置を中央*/
 }
 
 .site-logo {
     font-size: 1.8rem;
     margin: 0;
-    font-weight: 800;
+    font-weight: 800; /*文字の太さ*/
 }
 
 .nav-list {
     margin: 0;
     padding: 0;
-    list-style: none;
-    display: flex;
-    gap: 30px;
+    list-style: none; /*リストのマークをなくす*/
+    display: flex; /*子要素を強制横並び*/
+    gap: 30px; /*子要素の間隔*/
 }
 
 .nav-item a {
-    font-weight: 700;
-    color: var(--primary-color);
+    font-weight: 700; /*文字の太さ*/
+    color: #6f4e37;
     font-size: 0.95rem;
 }
 
@@ -136,30 +125,35 @@ header {
 
 /* 1. ヒーローイメージ */
 .hero {
-    position: relative;
+    position: relative; /*相対基準点にする*/
     color: #fff;
     height: 80vh; /* 画面の高さの80% */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
+    display: flex; /*子要素を強制横並び*/
+    align-items: center; /*縦位置を中央*/
+    justify-content: center; /*左右配置を調整*/
+    text-align: center; /*文字揃えを中央*/
+    overflow: hidden; /*画面外にはみ出さないように*/
 }
 
 .hero-content {
-    position: relative;
+    position: relative; /*相対基準点にする*/
     z-index: 2; /* 写真の上に文字を配置 */
-    background-color: rgba(0, 0, 0, 0.3); /* 文字を読みやすくするための薄い黒背景 */
+    background-color: rgba(
+        0,
+        0,
+        0,
+        0.3
+    ); /* 文字を読みやすくするための薄い黒背景 */
     padding: 40px;
-    border-radius: 10px;
-    max-width: 800px;
+    border-radius: 10px; /*四隅を丸く*/
+    max-width: 800px; /*最大でも800px */
 }
 
 .hero h2 {
     font-size: 3.5rem;
     margin-bottom: 20px;
     color: #fff;
-    line-height: 1.2;
+    line-height: 1.2; /*行間*/
 }
 
 .hero p {
@@ -168,61 +162,59 @@ header {
 }
 
 .hero-bg-img {
-    position: absolute;
+    position: absolute; /*相対点に対する絶対配置*/
+    /* 配置 */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* 画像をトリミングして全体を覆う */
-    z-index: 1;
+    object-fit: cover; /* トリミング前提 */
+    z-index: 1; /*重なりの強さ*/
 }
 
 /* ボタン */
 .btn {
-    display: inline-block;
-    background-color: var(--secondary-color);
+    display: inline-block; /*性質変更*/
+    background-color: #c19a6b;
     color: #fff;
     padding: 15px 40px;
-    border-radius: 30px;
-    font-weight: 700;
+    border-radius: 30px; /*四隅の丸み*/
+    font-weight: 700; /*文字の太さ*/
     margin-top: 20px;
-    border: none;
-    cursor: pointer;
+    border: none; /*枠なし*/
+    cursor: pointer; /*マウスホバー時ポインターになる*/
     font-size: 1rem;
 }
 
 /* 2. こだわりセクション (Flexbox - 左右配置) */
 .about {
-    display: flex;
-    align-items: center;
-    gap: 50px;
+    display: flex; /*子要素を強制横並び*/
+    align-items: center; /*縦位置を中央*/
+    gap: 50px; /*子要素の間隔*/
 }
-
 .about-text {
-    flex: 1; /* 左右の比率を1:1にする */
+    flex: 1; /* 横並びの左右の比率を1:1にする */
 }
-
 .about-image {
     flex: 1;
 }
 
 /* 3. メニューセクション (Grid Layout) */
 .menu-grid {
-    display: grid;
+    display: grid; /*区画整理のレイアウト 子要素の並びを指定*/
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    /* レスポンシブ: 画面幅に合わせて自動でカラム数を調整 */
-    gap: 40px;
+    /*300pxを最低値として、Windowsの大きさによって自動調整 */
+    gap: 40px; /*要素間の間隔*/
 }
 
 .menu-item {
     background: #fff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     text-align: center;
     transition: transform 0.3s ease;
 }
-
 .menu-item:hover {
     transform: translateY(-5px); /* ホバーで少し浮かす */
 }
@@ -244,7 +236,7 @@ header {
 
 .price {
     font-weight: 700;
-    color: var(--secondary-color);
+    color: #c19a6b;
     font-size: 1.2rem;
 }
 
@@ -255,32 +247,30 @@ header {
     flex-direction: row-reverse; /* 画像を右、テキストを左に配置 */
     gap: 50px;
 }
-
 .location-content {
-    flex: 1;
+    flex: 1; /*横並びの比率は1*/
 }
-
 .location-image {
-    flex: 1;
+    flex: 1; /*横並びの比率は1*/
 }
 
 .info-list {
-    display: grid;
-    grid-template-columns: 100px 1fr; /* 定義リストをきれいに並べる */
-    gap: 15px 20px;
+    display: grid; /*区画整理のレイアウト 子要素の並びを指定*/
+    grid-template-columns: 100px 1fr; /* 最初の幅は100px あとは比率1 */
+    gap: 15px 20px; /*上下の間隔 左右の間隔*/
     margin-bottom: 30px;
-    text-align: left;
+    text-align: left; /*文字を左揃え*/
 }
 
 .info-list dt {
-    font-weight: 700;
-    color: var(--primary-color);
+    font-weight: 700; /*文字の太さ*/
+    color: #6f4e37;
 }
 
 .btn-secondary {
-    display: inline-block;
-    border: 2px solid var(--primary-color);
-    color: var(--primary-color);
+    display: inline-block; /*性質変更*/
+    border: 2px solid #6f4e37; /*枠線 */
+    color: #6f4e37;
     padding: 10px 30px;
     border-radius: 30px;
     font-weight: 700;
@@ -291,16 +281,15 @@ header {
    フッター (Footer)
    ============================== */
 footer {
-    position: relative;
+    position: relative; /*相対基準点にする*/
     color: #fff;
     padding: 60px 0;
     text-align: center;
-    overflow: hidden;
+    overflow: hidden; /*画面外にはみ出さない*/
 }
-
 .footer-content {
     position: relative;
-    z-index: 2;
+    z-index: 2; /*重なった時の表示の強さ*/
 }
 
 .footer-logo {
@@ -311,18 +300,19 @@ footer {
 
 .copy {
     font-size: 0.8rem;
-    opacity: 0.8;
+    opacity: 0.8; /*透明度*/
     margin-top: 20px;
 }
 
 .footer-bg-img {
-    position: absolute;
+    position: absolute; /*相対点に対する絶対座標で配置*/
+    /*絶対配置の位置*/
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    z-index: 1;
+    object-fit: cover; /*トリミング前提*/
+    z-index: 1; /*重なった時の表示の強さ 1は弱い*/
     filter: brightness(0.4); /* フッター用に画像を暗くする */
 }
 
@@ -330,8 +320,8 @@ footer {
    レスポンシブデザイン (Responsive)
    ============================== */
 
-/* タブレットサイズ (〜992px) */
-@media (max-width: 992px) {
+/* モバイルサイズ (〜768px) の時のデザイン*/
+@media (max-width: 768px) {
     .container {
         padding: 0 30px;
     }
@@ -340,13 +330,10 @@ footer {
         font-size: 3rem;
     }
 
-    .about, .location {
+    .about,
+    .location {
         gap: 30px;
     }
-}
-
-/* モバイルサイズ (〜768px) */
-@media (max-width: 768px) {
     body {
         padding-top: 60px; /* ヘッダーの縮小に合わせて調整 */
     }
@@ -364,7 +351,7 @@ footer {
     header {
         padding: 10px 0;
     }
-    
+
     .header-container {
         flex-direction: column;
         gap: 10px;
@@ -399,26 +386,27 @@ footer {
     }
 
     /* Flexboxを解除して縦並びにする */
-    .about, .location {
+    .about,
+    .location {
         flex-direction: column;
         text-align: center;
     }
-    
+
     /* 店舗情報のテキストを中央寄せに */
     .info-list {
         grid-template-columns: 1fr; /* 1列にする */
         text-align: center;
         gap: 5px;
     }
-    
+
     .info-list dt {
         margin-top: 10px;
     }
-    
+
     .location-content {
         order: 2; /* テキストを画像の下にする */
     }
-    
+
     .location-image {
         order: 1; /* 画像をテキストの上にする */
         margin-bottom: 20px;
@@ -429,7 +417,7 @@ footer {
         grid-template-columns: 1fr; /* スマホでは1列 */
         gap: 30px;
     }
-    
+
     .menu-item {
         padding: 20px;
     }
