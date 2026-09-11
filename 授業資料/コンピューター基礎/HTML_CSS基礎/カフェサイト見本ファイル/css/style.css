@@ -286,10 +286,15 @@ footer {
     padding: 60px 0;
     text-align: center;
     overflow: hidden; /*画面外にはみ出さない*/
+
+    /* 背景画像 */
+    background-image:url(../img/image_6.png);
+    background-size: cover; /*めいいっぱい広がる */
+    background-position:center center; /* トリミングされる写真の位置取り */
 }
 .footer-content {
-    position: relative;
-    z-index: 2; /*重なった時の表示の強さ*/
+    /* position: relative; */
+    /* z-index: 2; 重なった時の表示の強さ */
 }
 
 .footer-logo {
@@ -305,15 +310,15 @@ footer {
 }
 
 .footer-bg-img {
-    position: absolute; /*相対点に対する絶対座標で配置*/
+    /* position: absolute; 相対点に対する絶対座標で配置 */
     /*絶対配置の位置*/
-    top: 0;
+    /* top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    object-fit: cover; /*トリミング前提*/
-    z-index: 1; /*重なった時の表示の強さ 1は弱い*/
-    filter: brightness(0.4); /* フッター用に画像を暗くする */
+    height: 100%; */
+    /* object-fit: cover; トリミング前提 */
+    /* z-index: -1; 重なった時の表示の強さ 1は弱い */
+    /* filter: brightness(0.4); フッター用に画像を暗くする */
 }
 
 /* ==============================
