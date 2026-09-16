@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\bin\Debug\net10.0\ShapeCalculator.exe
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\bin\Debug\net10.0\ShapeCalculator.deps.json
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\bin\Debug\net10.0\ShapeCalculator.runtimeconfig.json
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\bin\Debug\net10.0\ShapeCalculator.dll
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\bin\Debug\net10.0\ShapeCalculator.pdb
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\obj\Debug\net10.0\ShapeCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\obj\Debug\net10.0\ShapeCalculator.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\obj\Debug\net10.0\ShapeCalculator.AssemblyInfo.cs
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\obj\Debug\net10.0\ShapeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\obj\Debug\net10.0\ShapeCalculator.dll
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\obj\Debug\net10.0\refint\ShapeCalculator.dll
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\obj\Debug\net10.0\ShapeCalculator.pdb
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\obj\Debug\net10.0\ShapeCalculator.genruntimeconfig.cache
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\obj\Debug\net10.0\ref\ShapeCalculator.dll
+C:\Users\user\source\repos\0917Practice\ShapeCalculator\obj\Debug\net10.0\ShapeCal.6AF22AE1.Up2Date

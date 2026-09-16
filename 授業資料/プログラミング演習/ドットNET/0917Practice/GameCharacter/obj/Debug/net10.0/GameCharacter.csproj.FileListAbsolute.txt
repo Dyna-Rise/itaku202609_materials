@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\0917Practice\GameCharacter\obj\Debug\net10.0\GameCharacter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\0917Practice\GameCharacter\obj\Debug\net10.0\GameCharacter.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\0917Practice\GameCharacter\obj\Debug\net10.0\GameCharacter.AssemblyInfo.cs
+C:\Users\user\source\repos\0917Practice\GameCharacter\obj\Debug\net10.0\GameCharacter.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\0917Practice\GameCharacter\bin\Debug\net10.0\GameCharacter.exe
+C:\Users\user\source\repos\0917Practice\GameCharacter\bin\Debug\net10.0\GameCharacter.deps.json
+C:\Users\user\source\repos\0917Practice\GameCharacter\bin\Debug\net10.0\GameCharacter.runtimeconfig.json
+C:\Users\user\source\repos\0917Practice\GameCharacter\bin\Debug\net10.0\GameCharacter.dll
+C:\Users\user\source\repos\0917Practice\GameCharacter\bin\Debug\net10.0\GameCharacter.pdb
+C:\Users\user\source\repos\0917Practice\GameCharacter\obj\Debug\net10.0\GameCharacter.dll
+C:\Users\user\source\repos\0917Practice\GameCharacter\obj\Debug\net10.0\refint\GameCharacter.dll
+C:\Users\user\source\repos\0917Practice\GameCharacter\obj\Debug\net10.0\GameCharacter.pdb
+C:\Users\user\source\repos\0917Practice\GameCharacter\obj\Debug\net10.0\GameCharacter.genruntimeconfig.cache
+C:\Users\user\source\repos\0917Practice\GameCharacter\obj\Debug\net10.0\ref\GameCharacter.dll
+C:\Users\user\source\repos\0917Practice\GameCharacter\obj\Debug\net10.0\GameChar.C1C81681.Up2Date

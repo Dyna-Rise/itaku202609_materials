@@ -1,0 +1,327 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\0917Practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65FE8FBA-5207-4F90-AAF7-D73E1F80D94A}|ProductInventory\\ProductInventory.csproj|c:\\users\\user\\source\\repos\\0917practice\\productinventory\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FE8FBA-5207-4F90-AAF7-D73E1F80D94A}|ProductInventory\\ProductInventory.csproj|solutionrelative:productinventory\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FE8FBA-5207-4F90-AAF7-D73E1F80D94A}|ProductInventory\\ProductInventory.csproj|c:\\users\\user\\source\\repos\\0917practice\\productinventory\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FE8FBA-5207-4F90-AAF7-D73E1F80D94A}|ProductInventory\\ProductInventory.csproj|solutionrelative:productinventory\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FE8FBA-5207-4F90-AAF7-D73E1F80D94A}|ProductInventory\\ProductInventory.csproj|c:\\users\\user\\source\\repos\\0917practice\\productinventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FE8FBA-5207-4F90-AAF7-D73E1F80D94A}|ProductInventory\\ProductInventory.csproj|solutionrelative:productinventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FE8FBA-5207-4F90-AAF7-D73E1F80D94A}|ProductInventory\\ProductInventory.csproj|c:\\users\\user\\source\\repos\\0917practice\\productinventory\\productinventory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{65FE8FBA-5207-4F90-AAF7-D73E1F80D94A}|ProductInventory\\ProductInventory.csproj|solutionrelative:productinventory\\productinventory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B591ECDC-5431-426A-96E7-B73173570E30}|ShapeCalculator\\ShapeCalculator.csproj|c:\\users\\user\\source\\repos\\0917practice\\shapecalculator\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B591ECDC-5431-426A-96E7-B73173570E30}|ShapeCalculator\\ShapeCalculator.csproj|solutionrelative:shapecalculator\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FC7EE2-DB6D-40CC-8890-B390C4315AF6}|GameCharacter\\GameCharacter.csproj|c:\\users\\user\\source\\repos\\0917practice\\gamecharacter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FC7EE2-DB6D-40CC-8890-B390C4315AF6}|GameCharacter\\GameCharacter.csproj|solutionrelative:gamecharacter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FC7EE2-DB6D-40CC-8890-B390C4315AF6}|GameCharacter\\GameCharacter.csproj|c:\\users\\user\\source\\repos\\0917practice\\gamecharacter\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FC7EE2-DB6D-40CC-8890-B390C4315AF6}|GameCharacter\\GameCharacter.csproj|solutionrelative:gamecharacter\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FC7EE2-DB6D-40CC-8890-B390C4315AF6}|GameCharacter\\GameCharacter.csproj|c:\\users\\user\\source\\repos\\0917practice\\gamecharacter\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8FC7EE2-DB6D-40CC-8890-B390C4315AF6}|GameCharacter\\GameCharacter.csproj|solutionrelative:gamecharacter\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B591ECDC-5431-426A-96E7-B73173570E30}|ShapeCalculator\\ShapeCalculator.csproj|c:\\users\\user\\source\\repos\\0917practice\\shapecalculator\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B591ECDC-5431-426A-96E7-B73173570E30}|ShapeCalculator\\ShapeCalculator.csproj|solutionrelative:shapecalculator\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C108A93A-9D16-44E3-B77D-D75F2FB701AD}|EmployeeSystem\\EmployeeSystem.csproj|c:\\users\\user\\source\\repos\\0917practice\\employeesystem\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C108A93A-9D16-44E3-B77D-D75F2FB701AD}|EmployeeSystem\\EmployeeSystem.csproj|solutionrelative:employeesystem\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C108A93A-9D16-44E3-B77D-D75F2FB701AD}|EmployeeSystem\\EmployeeSystem.csproj|c:\\users\\user\\source\\repos\\0917practice\\employeesystem\\employeesystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C108A93A-9D16-44E3-B77D-D75F2FB701AD}|EmployeeSystem\\EmployeeSystem.csproj|solutionrelative:employeesystem\\employeesystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B591ECDC-5431-426A-96E7-B73173570E30}|ShapeCalculator\\ShapeCalculator.csproj|c:\\users\\user\\source\\repos\\0917practice\\shapecalculator\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B591ECDC-5431-426A-96E7-B73173570E30}|ShapeCalculator\\ShapeCalculator.csproj|solutionrelative:shapecalculator\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B591ECDC-5431-426A-96E7-B73173570E30}|ShapeCalculator\\ShapeCalculator.csproj|c:\\users\\user\\source\\repos\\0917practice\\shapecalculator\\shapecalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B591ECDC-5431-426A-96E7-B73173570E30}|ShapeCalculator\\ShapeCalculator.csproj|solutionrelative:shapecalculator\\shapecalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C108A93A-9D16-44E3-B77D-D75F2FB701AD}|EmployeeSystem\\EmployeeSystem.csproj|c:\\users\\user\\source\\repos\\0917practice\\employeesystem\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C108A93A-9D16-44E3-B77D-D75F2FB701AD}|EmployeeSystem\\EmployeeSystem.csproj|solutionrelative:employeesystem\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C108A93A-9D16-44E3-B77D-D75F2FB701AD}|EmployeeSystem\\EmployeeSystem.csproj|c:\\users\\user\\source\\repos\\0917practice\\employeesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C108A93A-9D16-44E3-B77D-D75F2FB701AD}|EmployeeSystem\\EmployeeSystem.csproj|solutionrelative:employeesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8FC7EE2-DB6D-40CC-8890-B390C4315AF6}|GameCharacter\\GameCharacter.csproj|c:\\users\\user\\source\\repos\\0917practice\\gamecharacter\\gamecharacter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F8FC7EE2-DB6D-40CC-8890-B390C4315AF6}|GameCharacter\\GameCharacter.csproj|solutionrelative:gamecharacter\\gamecharacter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B591ECDC-5431-426A-96E7-B73173570E30}|ShapeCalculator\\ShapeCalculator.csproj|c:\\users\\user\\source\\repos\\0917practice\\shapecalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B591ECDC-5431-426A-96E7-B73173570E30}|ShapeCalculator\\ShapeCalculator.csproj|solutionrelative:shapecalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductInventory",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\ProductInventory\\ProductInventory.csproj",
+              "RelativeDocumentMoniker": "ProductInventory\\ProductInventory.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\ProductInventory\\ProductInventory.csproj",
+              "RelativeToolTip": "ProductInventory\\ProductInventory.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-16T15:06:02.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShapeCalculator",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\ShapeCalculator\\ShapeCalculator.csproj",
+              "RelativeDocumentMoniker": "ShapeCalculator\\ShapeCalculator.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\ShapeCalculator\\ShapeCalculator.csproj",
+              "RelativeToolTip": "ShapeCalculator\\ShapeCalculator.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-16T14:47:57.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeSystem",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\EmployeeSystem\\EmployeeSystem.csproj",
+              "RelativeDocumentMoniker": "EmployeeSystem\\EmployeeSystem.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\EmployeeSystem\\EmployeeSystem.csproj",
+              "RelativeToolTip": "EmployeeSystem\\EmployeeSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-16T14:41:07.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameCharacter",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\GameCharacter\\GameCharacter.csproj",
+              "RelativeDocumentMoniker": "GameCharacter\\GameCharacter.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\GameCharacter\\GameCharacter.csproj",
+              "RelativeToolTip": "GameCharacter\\GameCharacter.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-16T14:41:08.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\ShapeCalculator\\Triangle.cs",
+              "RelativeDocumentMoniker": "ShapeCalculator\\Triangle.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\ShapeCalculator\\Triangle.cs",
+              "RelativeToolTip": "ShapeCalculator\\Triangle.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T14:06:37.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Food.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\ProductInventory\\Food.cs",
+              "RelativeDocumentMoniker": "ProductInventory\\Food.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\ProductInventory\\Food.cs",
+              "RelativeToolTip": "ProductInventory\\Food.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T13:28:57.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\ProductInventory\\Product.cs",
+              "RelativeDocumentMoniker": "ProductInventory\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\ProductInventory\\Product.cs",
+              "RelativeToolTip": "ProductInventory\\Product.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T13:24:29.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\ProductInventory\\Program.cs",
+              "RelativeDocumentMoniker": "ProductInventory\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\ProductInventory\\Program.cs",
+              "RelativeToolTip": "ProductInventory\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T13:24:16.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Warrior.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\GameCharacter\\Warrior.cs",
+              "RelativeDocumentMoniker": "GameCharacter\\Warrior.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\GameCharacter\\Warrior.cs",
+              "RelativeToolTip": "GameCharacter\\Warrior.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T13:19:58.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\GameCharacter\\Character.cs",
+              "RelativeDocumentMoniker": "GameCharacter\\Character.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\GameCharacter\\Character.cs",
+              "RelativeToolTip": "GameCharacter\\Character.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T13:05:10.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\GameCharacter\\Program.cs",
+              "RelativeDocumentMoniker": "GameCharacter\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\GameCharacter\\Program.cs",
+              "RelativeToolTip": "GameCharacter\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T13:04:55.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Square.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\ShapeCalculator\\Square.cs",
+              "RelativeDocumentMoniker": "ShapeCalculator\\Square.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\ShapeCalculator\\Square.cs",
+              "RelativeToolTip": "ShapeCalculator\\Square.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T10:14:21.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\ShapeCalculator\\Shape.cs",
+              "RelativeDocumentMoniker": "ShapeCalculator\\Shape.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\ShapeCalculator\\Shape.cs",
+              "RelativeToolTip": "ShapeCalculator\\Shape.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T10:07:00.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\ShapeCalculator\\Program.cs",
+              "RelativeDocumentMoniker": "ShapeCalculator\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\ShapeCalculator\\Program.cs",
+              "RelativeToolTip": "ShapeCalculator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T10:06:12.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\EmployeeSystem\\Manager.cs",
+              "RelativeDocumentMoniker": "EmployeeSystem\\Manager.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\EmployeeSystem\\Manager.cs",
+              "RelativeToolTip": "EmployeeSystem\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T09:28:46.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\EmployeeSystem\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeSystem\\Employee.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\EmployeeSystem\\Employee.cs",
+              "RelativeToolTip": "EmployeeSystem\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T09:24:41.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\0917Practice\\EmployeeSystem\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\0917Practice\\EmployeeSystem\\Program.cs",
+              "RelativeToolTip": "EmployeeSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T09:22:00.757Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 348,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

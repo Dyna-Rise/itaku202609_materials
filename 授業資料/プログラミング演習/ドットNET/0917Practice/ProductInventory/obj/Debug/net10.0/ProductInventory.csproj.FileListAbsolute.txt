@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\0917Practice\ProductInventory\bin\Debug\net10.0\ProductInventory.exe
+C:\Users\user\source\repos\0917Practice\ProductInventory\bin\Debug\net10.0\ProductInventory.deps.json
+C:\Users\user\source\repos\0917Practice\ProductInventory\bin\Debug\net10.0\ProductInventory.runtimeconfig.json
+C:\Users\user\source\repos\0917Practice\ProductInventory\bin\Debug\net10.0\ProductInventory.dll
+C:\Users\user\source\repos\0917Practice\ProductInventory\bin\Debug\net10.0\ProductInventory.pdb
+C:\Users\user\source\repos\0917Practice\ProductInventory\obj\Debug\net10.0\ProductInventory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\0917Practice\ProductInventory\obj\Debug\net10.0\ProductInventory.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\0917Practice\ProductInventory\obj\Debug\net10.0\ProductInventory.AssemblyInfo.cs
+C:\Users\user\source\repos\0917Practice\ProductInventory\obj\Debug\net10.0\ProductInventory.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\0917Practice\ProductInventory\obj\Debug\net10.0\ProductInventory.dll
+C:\Users\user\source\repos\0917Practice\ProductInventory\obj\Debug\net10.0\refint\ProductInventory.dll
+C:\Users\user\source\repos\0917Practice\ProductInventory\obj\Debug\net10.0\ProductInventory.pdb
+C:\Users\user\source\repos\0917Practice\ProductInventory\obj\Debug\net10.0\ProductInventory.genruntimeconfig.cache
+C:\Users\user\source\repos\0917Practice\ProductInventory\obj\Debug\net10.0\ref\ProductInventory.dll
+C:\Users\user\source\repos\0917Practice\ProductInventory\obj\Debug\net10.0\ProductI.20E4ACEA.Up2Date

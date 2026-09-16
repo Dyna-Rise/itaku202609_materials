@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="EmployeeSystem/EmployeeSystem.csproj" />
+  <Project Path="GameCharacter/GameCharacter.csproj" />
+  <Project Path="ProductInventory/ProductInventory.csproj" />
+  <Project Path="ShapeCalculator/ShapeCalculator.csproj" />
+</Solution>

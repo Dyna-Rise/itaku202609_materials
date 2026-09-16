@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\bin\Debug\net10.0\EmployeeSystem.exe
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\bin\Debug\net10.0\EmployeeSystem.deps.json
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\bin\Debug\net10.0\EmployeeSystem.runtimeconfig.json
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\bin\Debug\net10.0\EmployeeSystem.dll
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\bin\Debug\net10.0\EmployeeSystem.pdb
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\obj\Debug\net10.0\EmployeeSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\obj\Debug\net10.0\EmployeeSystem.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\obj\Debug\net10.0\EmployeeSystem.AssemblyInfo.cs
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\obj\Debug\net10.0\EmployeeSystem.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\obj\Debug\net10.0\EmployeeSystem.dll
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\obj\Debug\net10.0\refint\EmployeeSystem.dll
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\obj\Debug\net10.0\EmployeeSystem.pdb
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\obj\Debug\net10.0\EmployeeSystem.genruntimeconfig.cache
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\obj\Debug\net10.0\ref\EmployeeSystem.dll
+C:\Users\user\source\repos\0917Practice\EmployeeSystem\obj\Debug\net10.0\Employee.82613204.Up2Date
