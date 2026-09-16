@@ -14,9 +14,13 @@
                 new Food("幕ノ内弁当",680,3,2)
             };
 
-            for(int i = 0; i < foods.Length; i++)
+            //for(int i = 0; i < foods.Length; i++)
+            //{
+            //    foods[i].GetStockList();
+            //}
+            foreach(Food f in foods)
             {
-                foods[i].GetStockList();
+                f.GetStockList();
             }
         }
     }

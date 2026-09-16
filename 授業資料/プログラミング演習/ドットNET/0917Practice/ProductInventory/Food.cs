@@ -6,7 +6,7 @@ namespace ProductInventory
 {
     internal class Food : Product
     {
-        protected int untilExpiration; //残り消費期限日
+        private int untilExpiration; //残り消費期限日
 
         //コンストラクタ
         public Food() : base() { this.untilExpiration = 10; }

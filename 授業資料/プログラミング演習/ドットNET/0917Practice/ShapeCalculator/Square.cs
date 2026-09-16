@@ -6,8 +6,8 @@ namespace ShapeCalculator
 {
     internal class Square : Shape
     {
-        protected float bottom; //底辺
-        protected float height; //高さ
+        private float bottom; //底辺
+        private float height; //高さ
 
         //コンストラクタ
         public Square() : this(100, 100) { }
