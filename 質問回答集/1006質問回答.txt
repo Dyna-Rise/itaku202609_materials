@@ -1,0 +1,75 @@
+・あと前回の質問、9/24の授業後に書いていたので見ていただきたいです。
+今更なので流していただいてもいいのですが、一応。
+→大変失礼いたしました！
+　見逃しておりました、申し訳ありません。
+
+＜あらためまして＞
+unity2D_chapter3までのプロジェクト準備について.pdf
+2ページ目「その他 テキストに記載はないがやっておくべきこと / 注意点」
+> Scene ビュー直下の設定を「Pivot」に
+とありますが、
+Centerではない方がいい理由（Centerだといけない理由？）について詳細お聞きしたいです
+
+→Sceneパネルの基準点について
+　　Centerモード：全スプライトの基準点を一律でCenterに固定してしまう
+　　Pivotモード： スプライトに個々に設定した基準点を有効にできる
+　　※テキストでは説明のタイミングが遅かったと記憶していたので配布資料にて早めにご案内
+
+
+・授業でも少しお話がありましたが、
+たとえばGameManagerのUpdate()の中で
+GameObject player = GameObject.FindGameObjectWithTag("Player");
+PlayerController playerCnt = player.GetComponent<PlayerController>();
+するのは無駄なように思います。
+
+timeCnt = GetComponent<TimeController>(); // TimeControllerを取得
+のようにStart()の中で取得しておくことはできないのでしょうか。
+
+また、「FindGameObjectWithTagは重いけど限られた条件の中なので」というお話でしたが、プレイ中は基本的に
+else if (PlayerController.gameState == GameState.InGame)
+なので、結局ずっと毎度呼ばれているように思います。
+
+→おっしゃる通りです。
+より適切なのは
+①Start()で処理を行う
+②必要な時のみ発動する仕組みにする（Playerの状況が変化するようなゲーム）
+だと思います。
+
+例)
+if(player == null) {…}
+や
+if(切替フラグによって) {…}
+
+
+
+・ScoreItem item = collision.gameObject.GetComponent<ScoreItem>();
+　や
+　void OnTriggerEnter2D(Collider2D collision)
+　{
+　　　　if (collision.gameObject.tag == "Goal"){…}
+  }
+につきまして、今更ながらの質問となり恐縮なのですが
+collision（衝突判定を持つCollider2D）を持っているGameObjectの、
+タグ又はスコアアイテムコンポーネントを参照しに行ってますが
+collision.gameObjectという書き方は
+collisionから見てGameObjectへ遡っているようにも感じ
+このことをAIに質問すると、
+Unityがcollisionの所属元を参照するプロパティを持っている
+という回答を返してきたのですが、これに関する記述はテキストの方にありましたでしょうか？
+
+→
+＞collisionから見てGameObjectへ遡っているようにも感じ
+はい、感覚としてはそれで良いです。
+
+ScoreItemも、tagも、コンポーネント(collision)でなく、
+ゲームオブジェクトが持っている情報ですので
+　collision.GetComponent<ScoreItem>()　×
+　collision.gameObject.GetComponent<ScoreItem>()　〇
+
+　collision.tag　△（省略が許されるため。あくまで省略できるというだけ）
+　collision.gameObject.tag　〇
+が正解です。
+
+
+なお、残念ながらテキストにgameObjectの明確な説明は掲載ありません。
+
