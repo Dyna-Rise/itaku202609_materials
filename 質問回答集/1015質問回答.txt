@@ -1,0 +1,16 @@
+Player_Down/Up/Left/Rightのような状態が増えるとその間の遷移の矢印の数が組み合わせの数で増えてゆくと思われますが、
+Any State → Player_Down (Direction equals 0のとき)
+Any State → Player_Up (Direction equals 2のとき)
+Any State → Player_Left (Direction equals 1のとき)
+Any State → Player_Right (Direction equals 3のとき)
+のようには書けないのでしょうか。
+
+→AnyStateを使っても良いです。
+　が、Inspectorの設定で「Can Transition To Self」という項目を必ずチェックなしにする必要があります。
+（AnyStateは"自分自身"も含めてしまうので、自分から自分への無限ループによってアニメのコマが進まなくなるため）
+
+
+まとめ
+現状、直感的にわかりやすいのはテキストの方法、
+効率化を狙うならAnyStateも良し。
+応用でBlendTreeという手法があります。（これは後日の授業で）
