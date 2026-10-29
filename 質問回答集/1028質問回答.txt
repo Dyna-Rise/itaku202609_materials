@@ -1,0 +1,8 @@
+教科書では
+moveDirection.y -= gravity * Time.deltaTime;
+および
+controller.Move(globalDirection * Time.deltaTime);
+の両方でdeltaTimeをかけていますが、gravityの方は余計なのでしょうか。
+
+
+→その通りです。なので片方でOKです。
