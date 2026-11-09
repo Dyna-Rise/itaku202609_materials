@@ -1,0 +1,37 @@
+実際にTalkManager.csの一部を以下のように変更すると、
+
+if (submitAction.WasPressedThisFrame())
+{
+	Debug.Log("submitAction.WasPressedThisFrame");
+	AdvanceTalk(); // 入力があったらすべてこのメソッド1つに集約
+}
+
+if (submitAction.IsPressed())
+{
+	Debug.Log("submitAction.IsPressed");
+}
+
+void OnSubmit(InputValue value)
+{
+	Debug.Log("OnSubmit");
+}
+
+
+＞意味的にも、On～は～された瞬間に発生するのではないのでしょうか。
+→
+各ActionボタンのActionType：buttonであればOK
+
+※押しっぱなし、キャンセルの検知させるにはちょっと記述が面倒
+　HoldとCancelについてはInputAction型の変数を通した方が直感的で書きやすい
+
+＞また、ゲームプレイ中ではなくUI画面で使うのならOnSubmitを使うほうが自然なようにも感じますが、いかがでしょうか。
+
+→そうです。UIボタンなど単発の選択で成り立つものについては
+On〇〇系～の方が記述が楽であり、コードがスッキリする可能性がある。
+
+※一方で、いわゆるTitleやオプションメニューにおける純粋なUIパーツとは違い、
+　ゲームプレイ中に発生するイベントが重なる中でボタン操作をしなければいけない時（ゲームプレイ中にTalkを発生させる）、
+　On〇〇系だと細かい条件付けを書くのが煩雑になる。
+　コールバック系はトークが終わって後ろにボタン対象が重なっている時などに
+　誤作動で発動するリスクがあるとされているので、
+　基本的に単純なUIボタンの操作→On系、ゲームプレイ中のボタン処理はInputAction変数を通してUpdate内での処理などがセオリーとされている
