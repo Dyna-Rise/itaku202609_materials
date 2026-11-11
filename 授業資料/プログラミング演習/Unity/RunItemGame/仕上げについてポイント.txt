@@ -1,0 +1,24 @@
+・アニメの挙動について
+PlayerRunのパラメータの置き方
+GitHub参照
+
+・Goal側のPlayerのアニメをどうするか問題
+
+・PlayerShooter、PlayerSlash
+もGameEndで止める
+
+・ItemとBulletの接触の考え方
+※レイヤー制御か、if文制御か
+
+・BaseStageにおける
+　Canvas制御
+
+・DefaultStage0、-1のEnemyの出現をおさえる
+　EnemeyGenerator、ItemGeneratorなどを
+カットしておくと吉
+
+・DefaultStageにモデルを設置
+
+・Window→Rendering→Lighting項目の中で
+EnvironmentがSkyBoxを扱っている
+SkyBoxの変更やFogもここから設定できる
